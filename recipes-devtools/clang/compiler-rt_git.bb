@@ -12,7 +12,7 @@ require common-source.inc
 inherit cmake pkgconfig pythonnative
 
 
-LIC_FILES_CHKSUM = "file://compiler-rt/LICENSE.TXT;md5=f981c4637a4cd67915ac527b3ead3a59; \
+LIC_FILES_CHKSUM = "file://compiler-rt/LICENSE.TXT;md5=d846d1d65baf322d4c485d6ee54e877a; \
 "
 
 BASEDEPENDS_remove_toolchain-clang_class-target = "compiler-rt libcxx"
